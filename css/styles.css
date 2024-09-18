@@ -1,0 +1,70 @@
+:root {
+  --primary: #9c27b0;
+  --darkPrimary: #89119d;
+  --secondary: #ffce00;
+  --darkSecondary: rgb(233, 287, 2);
+  --white: #fff;
+  --black: #000;
+
+  --principalFont: "Staatliches", sans-serif;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 62.5%; /*! 62.5% de 16px = 10px. */
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 16px; /*! 1.6rem = 16 px */
+}
+
+/** Global - BEM */
+
+body {
+  background-color: var(--primary);
+  font-size: 1.6rem;
+  line-height: 1.5;
+}
+
+p {
+  font-size: 1.8rem;
+  font-family: Arial, Helvetica, sans-serif;
+  color: var(--white);
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  width: 100%;
+}
+
+.container {
+  max-width: 120rem;
+  margin: 0 auto;
+}
+
+h1,
+h2,
+h3 {
+  text-align: center;
+  color: var(--secondary);
+  font-family: var(--principalFont);
+}
+
+h1 {
+  font-size: 4rem;
+}
+h2 {
+  font-size: 3.2rem;
+}
+h3 {
+  font-size: 2.4rem;
+}
